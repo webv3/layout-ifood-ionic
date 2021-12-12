@@ -1,0 +1,20 @@
+ion-content ion-grid ion-col ion-label{
+    position: absolute;
+    margin: 10px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+
+ion-content ion-grid ion-col ion-img{
+    border-radius: 5px;
+    overflow: hidden;
+    height:6em;
+    filter: brightness(0.6);
+    max-width:1000px !important;
+}
+
+ion-content ion-grid ion-col ion-img img{
+    width:100%;
+    --height:auto !important;
+}

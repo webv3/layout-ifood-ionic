@@ -24,3 +24,51 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+
+
+.hideScroll::-webkit-scrollbar{
+    display:none;
+}
+
+ion-segment{
+    height:40px;
+}
+  
+ion-segment-button{
+    min-height:35px;
+}
+
+
+ion-tab-button {        
+    ion-icon {  
+        //font-size: 22px;
+    }
+}
+
+
+
+.swiper-pagination {
+    bottom: 0 !important;
+    
+    //bottom: calc(env(safe-area-inset-bottom) + 20px) !important;
+}
+
+
+
+ion-slides ion-slide{
+    padding:5px 15px 25px 15px;
+}
+
+ion-slides ion-slide img{
+    border-radius: 15px;
+    width:95% !important;
+}
+
+
+body strong{
+    font-weight: 500;
+}
+
+
